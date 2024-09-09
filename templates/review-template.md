@@ -14,7 +14,7 @@ Provide a concise summary of the documentation. What is it about? What purpose d
 ## 2. Clarity and Comprehensiveness:
 - **Clarity**: 
   - Is the information easy to understand?
-  - Are the sentences and paragraphs cleaur and straightforward?
+  - Are the sentences and paragraphs clear and straightforward?
   - Is the language appropriate for the intended audience?
 
 - **Comprehensiveness**:
@@ -43,7 +43,7 @@ Provide a concise summary of the documentation. What is it about? What purpose d
 ## 5. Visual and Design Elements:
 - **Visuals**:
   - Are diagrams, screenshots, and tables used effectively?
-  - Are visuals clear, properly labeled, and relevant?
+  - Are visuals clear, properly labelled, and relevant?
 
 - **Design**:
   - Is the document aesthetically pleasing?
