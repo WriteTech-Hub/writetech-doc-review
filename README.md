@@ -1,24 +1,107 @@
-# WriteTech DocReview Series
+# 📚 WriteTech DocReview Series
 
-WriteTech DocReview Series is a community-driven effort to improve the quality of technical documentation. This initiative allows community members to enhance their technical writing skills, build portfolios, and contribute to the improvement of documentation across various industries.
+The **WriteTech DocReview Series** is a community-driven initiative organized by [WriteTech Hub](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
 
-## How It Works
-1. **Documentation Selection**: Community members choose the documentation they wish to review.
-2. **Review Submission**: Members submit their reviews using the provided template.
-3. **Review Process**: Each PR undergoes an external review by selected community reviewers, followed by an internal review by in-house technical writers, all within the same PR thread.
-4. **Public Sharing**: Approved reviews are published publicly.
+---
 
-## Folder Structure
-- **reviews/**: Contains individual review files submitted by community members.
-- **templates/**: Contains the review template.
-- **docs/**: Contains selection process and additional guidelines.
+## 🎯 **Objective**
 
-## Contributing
-1. Fork the repository.
-2. Use the template in `templates/review-template.md` to write your review.
-3. Submit your review via a Pull Request (PR) in the `reviews/` folder.
-4. External reviewers will review your PR, followed by an internal review.
+This series is designed to:
+- Enable community members to build a portfolio by reviewing technical documentation.
+- Provide vetted feedback from in-house technical writers.
+- Share approved reviews publicly, recognizing community contributions.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## 🌟 **Community Goals**
+
+### **Community Goals**
+- **Skill Development**: Enhance the technical writing and review skills of community members.
+- **Portfolio Building**: Provide opportunities to build and showcase portfolios.
+- **Collaboration**: Foster collaboration and mutual learning.
+- **Recognition**: Acknowledge and highlight valuable contributions.
+- **Quality Improvement**: Improve the quality of technical documentation through collective feedback.
+- **Engagement**: Increase community participation and engagement.
+- **Resource Development**: Build a repository of high-quality, vetted documentation reviews.
+
+---
+
+Here’s a draft for the **Participation Requirements** section, along with instructions on how to add a link to the website in the README file:
+
+---
+
+## ✅ **Participation Requirements**
+
+To participate in the WriteTech DocReview Series, you must meet the following criteria:
+
+1. **Be a Member of the WriteTech Hub Community**  
+   If you're not already a part of our community, you can [**join here**](https://writetechhub.org/our-community/) and gain access to valuable resources, networking opportunities, and the chance to participate in community-driven initiatives like the DocReview Series.
+
+2. **Technical Writing Experience**  
+   You must have experience in technical writing to ensure quality and consistency in reviews. This program is aimed at helping technical writers refine their skills while contributing to real-world documentation projects.
+
+3. **Commitment to Quality**  
+   Each participant is expected to provide thorough, thoughtful, and constructive feedback in their reviews, following the provided template and guidelines.
+
+---
+
+## 🌟 **How It Works**
+
+1. **📄 Documentation Selection**: Community members select the technical documentation they'd like to review from a curated list.
+2. **✍️ Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
+3. **🔍 Review Process**: Each submission undergoes:
+   - **External Review**: Peer-reviewed by selected community members.
+   - **Internal Review**: Verified by in-house technical writers, all within the same PR thread.
+4. **📢 Public Sharing**: Approved reviews are published publicly for community access.
+
+---
+
+## 📅 **Timeline**
+
+| **Stage**                               | **Dates**                        | **Details**                                                                                               |
+|-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Documentation Selection**             | **10th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation Selection Process](docs/doc-selection-process.md)    |
+| **Review Submission**                   | **10th September – 23rd September** | Participants submit their reviews using the provided [template](templates/review-template.md). |
+| **Initial Review by Experienced Writers**| **24th September – 30th September** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
+| **Vetting Process by Technical Writers**| **1st October – 7th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
+| **Public Sharing of Reviews**           | **8th October – 15th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
+| **Recognition & Contribution Highlights**| **16th October onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
+
+---
+
+## 🗂 **Folder Structure**
+
+- **`reviews/`**: Holds individual review submissions from the community.
+- **`templates/`**: Contains the [review template](templates/review-template.md) for submissions.
+- **`docs/`**: Includes the documentation selection process and additional guidelines.
+
+---
+
+## 🤝 **Contributing**
+
+We encourage you to contribute by following these steps:
+
+1. **Fork** this repository.
+2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
+3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder.
+4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
+
+---
+
+## 📜 **License**
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+### 🚀 **Join the Community!**
+
+By participating in WriteTech DocReview Series, you're not only improving your technical writing skills but also helping enhance technical documentation that impacts real-world applications. If you're not already a member, [**join the WriteTech Hub Community**](https://writetechhub.org/our-community/) to participate in the DocReview Series and access other exciting opportunities. Let’s create exceptional documentation together!
+
+---
+
+**Contact Us:**  
+Have questions or suggestions? Feel free to open an issue to reach out to us!
+
+---
 
