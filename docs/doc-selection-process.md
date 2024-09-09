@@ -1,4 +1,4 @@
-# Documentation Review Selection Process
+# Documentation Selection Process
 
 ## Overview
 This document outlines the process for selecting technical documentation for the WriteTech Hub Review Initiative.
