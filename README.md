@@ -13,7 +13,6 @@ This series is designed to:
 
 ## 🌟 **Community Goals**
 
-### **Community Goals**
 - **Skill Development**: Enhance the technical writing and review skills of community members.
 - **Portfolio Building**: Provide opportunities to build and showcase portfolios.
 - **Collaboration**: Foster collaboration and mutual learning.
@@ -39,15 +38,18 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🌟 **How It Works**
 
-1. **📄 Documentation Selection**: Community members select the technical documentation they'd like to review from a curated list.
-2. **✍️ Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
-3. **🔍 Review Process**: Each submission undergoes:
+**📄 Documentation Selection**: Community members select the technical documentation they'd like to review from a curated list.
+
+**✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
+
+**🔍 Review Process**: Each submission undergoes:
    - **External Review**: Peer-reviewed by selected community members.
    - **Internal Review**: Verified by in-house technical writers, all within the same PR thread.
-4. **📢 Public Sharing**: Approved reviews are published publicly for community access.
+
+**📢 Public Sharing**: Approved reviews are published publicly for community access.
 
 
-## 📅 **Timeline**
+### 📅 **Timeline**
 
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
