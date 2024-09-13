@@ -77,6 +77,8 @@ We encourage you to contribute by following these steps:
 3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
+## WriteTech DocReview Documentation
+You can find the full documentation for the WriteTech DocReview [here](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/docs/List%20of%20Documentation.md).
 
 ## 📜 **License**
 
