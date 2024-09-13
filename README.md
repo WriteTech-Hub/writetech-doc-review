@@ -38,7 +38,7 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🌟 **How It Works**
 
-**📄 Documentation Selection**: Community members select the technical documentation they'd like to review from a curated list.
+**📄 Documentation Selection**: Community members select the technical documentation they'd like to review from the [curated list](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/docs/List%20of%20Documentation.md).
 
 **✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
 
@@ -76,7 +76,6 @@ We encourage you to contribute by following these steps:
 2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
 3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
-5. You can find the full documentation for the WriteTech DocReview [here](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/docs/List%20of%20Documentation.md).
 
 ## 📜 **License**
 
