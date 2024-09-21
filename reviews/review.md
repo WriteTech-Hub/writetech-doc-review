@@ -94,7 +94,8 @@ The use of emojis, such as "👉 View full documentation..." and "🐍 👉 Chec
 Overall, the documentation provides a solid foundation with clear examples and explanations of Crawlee's key features. However, it lacks consistency in tone, with informal writing and complex sentences that affect readability. While it covers essential topics, it would benefit from simpler language, clearer definitions of technical terms, and the inclusion of visual aids. Improving these areas would make the documentation more user-friendly and better aligned with industry best practices. Additionally, the documentation lacks sufficient visual aids to fully engage the user, and the ones it does use, such as emojis, detract from its professionalism. While the content has good potential, it requires refinement and a shift to a more formal tone to make it stand out. Implementing more relevant visual aids, such as diagrams or flowcharts, along with a more serious and polished presentation, would greatly improve its overall impact and effectiveness.
 
 - **Rate the document on a scale from 1 to 5 based on overall quality and usability.**
-  2.5
+
+   2.5
 
 ## 11. Additional Comments:
 - Defining more technical terms would resolve many clarity issues, ensuring that users can follow along without confusion. Additionally, focusing on writing concise, formal information would improve the overall professionalism of the documentation.
