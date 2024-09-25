@@ -53,11 +53,11 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Documentation Selection**             | **10th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation Selection Process](docs/doc-selection-process.md)    |
-| **Review Submission**                   | **10th September – 23rd September** | Participants submit their reviews using the provided [template](templates/review-template.md). |
-| **Initial Review by Experienced Writers**| **24th September – 30th September** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
-| **Vetting Process by Technical Writers**| **1st October – 7th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
-| **Public Sharing of Reviews**           | **8th October – 15th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
+| **Documentation Selection**             | **16th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation Selection Process](docs/doc-selection-process.md)    |
+| **Review Submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](templates/review-template.md). |
+| **Initial Review by Experienced Writers**| **26th September – 3rd October** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
+| **Vetting Process by Technical Writers**| **7th October – 11th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
+| **Public Sharing of Reviews**           | **16th October – 17th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
 | **Recognition & Contribution Highlights**| **16th October onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
 
 
