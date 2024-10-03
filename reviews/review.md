@@ -23,7 +23,7 @@ The author said, "...I fundamentally want to keep this app relatively small and 
 ## 3. Accuracy and Relevance:
 - **Accuracy**: 
   - Having tried the application myself, all the features and technical details seem correct and in line with the application's capabilities, as stated in the documentation.
-  - The documentation states that it is a "mobile-only" time-tracking application, but the README in the GitHub repo doesn't say so. Rather the repo provides information on how to install it application on Linux. This misinformation could be detrimental and cost them some users.
+  - The documentation states that it is a "mobile-only" time-tracking application, but the README in the GitHub repo doesn't say so. Rather the repo provides information on how to install the application on Linux. This misinformation could be detrimental and cost them some users.
 - **Relevance**: 
   - The documentation is relevant to the current version of the application and matches its privacy-centric nature.
 
