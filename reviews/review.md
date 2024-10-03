@@ -9,7 +9,7 @@ Time Cop Documentation
 - **Review Level**: Beginner
 
 ## 1. Summary:
-The Time Cop documentation provides an overview of the offline, privacy-first, time-tracking application. It highlights its key features such as project organization, CSV data export, multi-language support, and the absence of ads or tracking.
+The Time Cop documentation provides an overview of Time Cop, an offline, privacy-first, time-tracking application. It highlights its key features such as project organization, CSV data export, multi-language support, and the absence of ads or tracking.
 
 The author said, "...I fundamentally want to keep this app relatively small and simple.", which includes the documentation. Hence, the documentation was written on the homepage of the website, rather than a dedicated page.
 
@@ -18,7 +18,7 @@ The author said, "...I fundamentally want to keep this app relatively small and 
   - The information is simple, direct and easy to understand.
   - Sentences are clear, concise and very straight to the point.
 - **Comprehensiveness**: 
-  - The documentation goes over the basic features of the application but could expand more on advanced features or integration tips.
+  - The documentation goes over the basic features of the application but could expand more on advanced features or integration tips. For example, the "Export data as a .csv file, filtered by timespans and projects" could also highlight advanced functionalities like integrating the CSV exports into productivity tools like Excel or other project management software.
 
 ## 3. Accuracy and Relevance:
 - **Accuracy**: 
