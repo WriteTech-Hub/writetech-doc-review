@@ -11,7 +11,7 @@ Time Cop Documentation
 ## 1. Summary:
 The Time Cop documentation provides an overview of the offline, privacy-first, time-tracking application. It highlights its key features such as project organization, CSV data export, multi-language support, and the absence of ads or tracking.
 
-The author said, "...I fundamentally want to keep this app relatively small and simple.", which included the documentation. Hence, the documentation was written on the homepage of the website, not on a dedicated page.
+The author said, "...I fundamentally want to keep this app relatively small and simple.", which includes the documentation. Hence, the documentation was written on the homepage of the website, rather than a dedicated page.
 
 ## 2. Clarity and Comprehensiveness:
 - **Clarity**: 
@@ -41,8 +41,7 @@ The author said, "...I fundamentally want to keep this app relatively small and 
 
 ## 6. Suggestions for Improvement:
 - The documentation should include a short description of the application, aside from the existing one—which looks more like a "Copy". Something like this would suffice 
-  "Time Cop is a minimalist time-tracking application focused on providing a private, distraction-free experience. It is designed for users who value simplicity. It helps manage tasks and
-  projects efficiently without relying on internet connectivity or external data storage services".
+  "Time Cop is a minimalist time-tracking application focused on providing a private, distraction-free experience. It is designed for users who value simplicity. It helps manage tasks and projects efficiently without relying on internet connectivity or external data storage services".
 - The documentation should be expanded with more sections like a "Quick Start" section, providing information about devices and installation.
 - The "Feature" section should then be narrowed down to the core features such as the "Privacy", "Offline", "CSV Exporting", "Multiple Timers", and "Project Grouping" features.
 
