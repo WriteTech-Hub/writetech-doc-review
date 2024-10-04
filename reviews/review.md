@@ -40,9 +40,9 @@ Adding some punctuation and splitting the long sentence into shorter ones would 
 
 > A prompt will be shown, asking you to select a template. Choosing a TypeScript template will give you better code completion and static type checking if you're familiar with it. Otherwise, you can select JavaScript. Functionally, they're identical.
 
-As the documentation is aiming audiences with the knowledge of JavaScript—and potentially TypeScript—another suggestion is not to mention them at all and go straight to the point as below:
+As the documentation is aiming audiences with the knowledge of JavaScript—and potentially know what TypeScript is—another suggestion is not to mention them at all and go straight to the point as below:
 
-> A prompt will be shown, asking you to select between a TypeScript or JavaScript template.
+> A prompt will be shown, asking you to choose between a TypeScript or JavaScript template.
 
 - **Comprehensiveness**:
 
