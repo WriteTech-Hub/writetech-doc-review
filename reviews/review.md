@@ -219,11 +219,9 @@ Please see explanations and examples in below sections:
 - Rate the document on a scale from 1 to 5 based on overall quality and usability.
 -->
 
-I rate the document 3 on a scale of 1 to 5.
-
 As a background, I have no knowledge of web scraping. Reading the documentation and following the instructions helped me understand web scraping and what Crawlee does. I also gained more knowledge about web scraping, crawling (which I heard a lot about but am not sure what it is), and so on.
 
-Why 3? I'm one of those readers who read line-by-line when I want to understand something more. Sometimes, I had to read a paragraph a couple of times to understand the information because some sentences were not straightforward and too wordy.
+I rate the document 3 on a scale of 1 to 5. Why 3? I'm one of those readers who read line-by-line when I want to understand something more. Sometimes, I had to read a paragraph a couple of times to understand the information because some sentences were not straightforward and too wordy. Additionally, the back-to-back admonitions distracted me because I felt I needed to read them all thoroughly.
 
 ## 11. Additional Comments
 
