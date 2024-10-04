@@ -20,7 +20,7 @@ Crawlee is a web scraping and browser automation library that helps users build 
 
 - **Clarity**:
 
-  <!--
+<!--
   - Is the information easy to understand?
   - Are the sentences and paragraphs clear and straightforward?
   - Is the language appropriate for the intended audience?
@@ -69,7 +69,7 @@ The "[JavaScript rendering](https://crawlee.dev/docs/guides/javascript-rendering
 
 As per documentation, I should get `ACTOR:` and nothing else on the console when I ran the first code. Instead, I got the below info on the console with no `ACTOR:` printed anywhere:
 
-"`bash
+```bash
 INFO  CheerioCrawler: All requests from the queue have been processed, the crawler will shut down.
 INFO  CheerioCrawler: Final request statistics: {"requestsFinished" :1, "requestsFailed" :0, "retryHistogram":[1], "requestAvgFailedDurationMillis":null, "requestAvgFinishedDurationMillis":4688, "requestsFinishedPerMinute":9, "requestsFailedPerMinute" :0, "requestTotalDurationMillis":4688, "requestsTotal" :1, "crawlerRuntimeMillis":6821}
 INFO  CheerioCrawler: Finished! Total 1 requests: 1 succeeded, 0 failed. {"terminal":true}
@@ -126,31 +126,31 @@ The documentation is easy to navigate because the headings, subheadings, and tab
 
 - **Visuals**:
 
-  <!--
+<!--
   - Are diagrams, screenshots, and tables used effectively?
   - Are visuals clear, properly labelled, and relevant?
   -->
 
- Screenshots are used effectively. They're also clear, properly labeled, and relevant.
+Screenshots are used effectively. They're also clear, properly labeled, and relevant.
 
 - **Design**:
 
-  <!--
+<!--
   - Is the document aesthetically pleasing?
   - Is there consistent use of fonts, colors, and formatting?
   -->
 
- The documentation's aesthetics can be improved. Admonitions (notes, info, tips, warning cards) are very helpful for clarity and caution. However, some pages, e.g., [Scraping the Store](https://crawlee.dev/docs/introduction/scraping), have back-to-back admonitions, which can distract the audience.
+The documentation's aesthetics can be improved. Admonitions (notes, info, tips, warning cards) are very helpful for clarity and caution. However, some pages, e.g., [Scraping the Store](https://crawlee.dev/docs/introduction/scraping), have back-to-back admonitions, which can distract the audience.
 
- Fonts and colors are consistent throughout the docs. Yet, some formatting can be improved for consistency. Let's take an example from [Getting some real-world data](https://crawlee.dev/docs/introduction/real-world-project) page. There are two ways a link is formatted in the documentation:
+Fonts and colors are consistent throughout the docs. Yet, some formatting can be improved for consistency. Let's take an example from [Getting some real-world data](https://crawlee.dev/docs/introduction/real-world-project) page. There are two ways a link is formatted in the documentation:
 
-  - **As an inline code**
+- **As an inline code**
 
-    > ...when we already know that everything we want to extract can be found at the `https://warehouse-theme-metal.myshopify.com/collections` page.
+> ...when we already know that everything we want to extract can be found at the `https://warehouse-theme-metal.myshopify.com/collections` page.
 
-  - **As an external link**
+- **As an external link**
 
-  > Let's open DevTools by going to https://warehouse-theme-metal.myshopify.com/collections in Chrome...
+> Let's open DevTools by going to https://warehouse-theme-metal.myshopify.com/collections in Chrome...
 
 ## 6. Suggestions for Improvement
 
@@ -163,7 +163,7 @@ The documentation is easy to navigate because the headings, subheadings, and tab
 
 - Some long sentences can be broken into shorter sentences for better reading and understanding.
 - Using punctuation properly can help the audience understand the exact meaning of a sentence.
-There might be another way to avoid using heavy back-to-back admonitions so that the audience isn't distracted.
+  There might be another way to avoid using heavy back-to-back admonitions so that the audience isn't distracted.
 - The consistency of using "you" and "we" can be improved. For example, in the "[Scraping the Store](https://crawlee.dev/docs/introduction/scraping)" page, some sections use "you", and some go with "we"."
 
 ### Sections that Need Expansion, Rephrasing, or Additional Content
@@ -205,12 +205,12 @@ Please see explanations and examples in below sections:
 ## 9. Best Practices Compliance
 
 - **Standards**:
-  <!--
-  - Does the documentation adhere to recognized standards (e.g., Google's Documentation Guide)?
-  - How does it compare with industry best practices?
-  -->
+    <!--
+    - Does the documentation adhere to recognized standards (e.g., Google's Documentation Guide)?
+    - How does it compare with industry best practices?
+    -->
 
- Creating standards throughout the documentation can be improved. Please see the "Relevance" in the [3. Accuracy and Relevance](#3-accuracy-and-relevance) as an example.
+Creating standards throughout the documentation can be improved. Please see the "Relevance" in the [3. Accuracy and Relevance](#3-accuracy-and-relevance) as an example.
 
 ## 10. Overall Assessment
 
@@ -226,3 +226,5 @@ I rate the document 3 on a scale of 1 to 5. Why 3? I'm one of those readers who 
 ## 11. Additional Comments
 
 <!-- - Any additional observations or comments. -->
+
+It would be great to add information about the legal side of web scraping at the beginning of the documentation. This would clarify what kind of data users may keep, use, and share and what they may not. Knowing the limitations would benefit users and Crawlee as a tool to scrap data from the web.
