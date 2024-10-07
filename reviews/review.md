@@ -161,6 +161,8 @@ Fonts and colors are consistent throughout the docs. Yet, some formatting can be
 
 ### Actionable Suggestions
 
+Based on the findings and examples in previous sections, below are some suggestions that can be applied:
+
 - Some long sentences can be broken into shorter sentences for better reading and understanding.
 - Using punctuation properly can help the audience understand the exact meaning of a sentence.
   There might be another way to avoid using heavy back-to-back admonitions so that the audience isn't distracted.
@@ -185,7 +187,7 @@ It'll be even better to have a table that shows the differences, such as their s
 - Mention sections that are particularly well-written or effective.
 -->
 
-The documentation is quite informative for those who are new to web scraping. It provides detailed explanations about how to use Crawlee for web scraping, along with enough code examples and screenshots.
+The documentation is quite informative for those who are new to web scraping. It provides detailed explanations about using Crawlee for web scraping and enough code examples and screenshots.
 
 The "[Introduction](https://crawlee.dev/docs/introduction)" chapter, in particular, does a great job of walking the audience to understand Crawlee and scraping data step-by-step.
 
