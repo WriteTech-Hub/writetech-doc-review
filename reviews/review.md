@@ -185,7 +185,7 @@ It'll be even better to have a table that shows the differences, such as their s
 - Mention sections that are particularly well-written or effective.
 -->
 
-The documentation is quite informative for those who are new to web scraping. It provides detailed explanations about how to use the tools, along with enough code examples and screenshots.
+The documentation is quite informative for those who are new to web scraping. It provides detailed explanations about how to use Crawlee for web scraping, along with enough code examples and screenshots.
 
 The "[Introduction](https://crawlee.dev/docs/introduction)" chapter, in particular, does a great job of walking the audience to understand Crawlee and scraping data step-by-step.
 
