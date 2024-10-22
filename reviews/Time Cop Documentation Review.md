@@ -1,7 +1,7 @@
 # Technical Documentation Review Template
 
 ## Documentation Title:
-Time Cop Documentation
+[Time Cop Documentation](https://github.com/hamaluik/timecop)
 
 ## Reviewer Information:
 - **Name**: Ebenezer Raphael
