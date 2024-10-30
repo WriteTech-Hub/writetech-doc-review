@@ -16,7 +16,7 @@ Proxelar is a Rust-based Man-in-the-Middle (MitM) proxy designed to provide visi
 The language is simple and easy to understand.
 
 However, here are some improvements to consider:
-- Thw first sentence: "Rust-based Man in the Middle proxy, an early-stage project aimed at providing visibility into network traffic." could be rephrased for clarity. Consider something like: "Proxelar is an early-stage, Rust-based man-in-the-middle proxy designed to provide visibility into network traffic."
+- The first sentence: "Rust-based Man in the Middle proxy, an early-stage project aimed at providing visibility into network traffic." could be rephrased for clarity. Consider something like: "Proxelar is an early-stage, Rust-based man-in-the-middle proxy designed to provide visibility into network traffic."
 - Consider using more descriptive headings. For example, the "Screenshots" heading could benefit from more detail (e.g., "Screenshots of Proxelar Features"). This improves clarity on what the section contains.
 - For the first command in the quick-start guide, instead of "sh install_cer.sh," clarify that this is a terminal command and briefly explain its purpose. For example, "Run the following command in your terminal to generate a certificate: sh install_cer.sh."
 
