@@ -38,9 +38,9 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🌟 **How It Works**
 
-**📄 Documentation Selection**: Community members select the technical documentation they'd like to review from the [curated list](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/docs/List%20of%20Documentation.md).
+**📄 Documentation Selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
 
-**✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
+**✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](review_template/review-template.md).
 
 **🔍 Review Process**: Each submission undergoes:
    - **External Review**: Peer-reviewed by selected community members.
@@ -54,7 +54,7 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Documentation Selection**             | **16th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation Selection Process](docs/doc-selection-process.md)    |
-| **Review Submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](templates/review-template.md). |
+| **Review Submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](review_template/review-template.md). |
 | **Initial Review by Experienced Writers**| **26th September – 3rd October** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
 | **Vetting Process by Technical Writers**| **7th October – 11th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
 | **Public Sharing of Reviews**           | **16th October – 17th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
@@ -63,8 +63,8 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🗂 **Folder Structure**
 
-- **`reviews/`**: Holds individual review submissions from the community.
-- **`templates/`**: Contains the [review template](templates/review-template.md) for submissions.
+- **`(year)_cycle/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
+- **`review_template/`**: Contains the [review template](review_template/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
 
@@ -73,8 +73,8 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
-2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder.
+2. Use the [review template](review_template/review-template.md) located in the `review_template/` folder to craft your review.
+3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
 ## 📜 **License**

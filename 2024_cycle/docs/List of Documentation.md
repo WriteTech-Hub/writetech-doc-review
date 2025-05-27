@@ -1,4 +1,4 @@
-# 📚 List of Documentation For WriteTech DocReview Series
+# 📚 List of Documentation For the 2024 WriteTech DocReview Series
 
 | **Repository**                               | **Description**                        | **Language**                       | **Issues**                      |
 |----------------------------------------------|----------------------------------------|------------------------------------|---------------------------------|
