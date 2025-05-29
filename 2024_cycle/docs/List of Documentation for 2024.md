@@ -1,0 +1,8 @@
+# 📚 List of Documentation For the 2024 WriteTech DocReview Series
+
+| **Repository**                               | **Description**                        | **Language**                       | **Issues**                      |
+|----------------------------------------------|----------------------------------------|------------------------------------|---------------------------------|
+| [hamaluik/timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy. | Dart | [1. Release for macOS using Homebrew Cask](https://github.com/hamaluik/timecop/issues/82) |
+| [emanuele-em/proxelar](https://github.com/emanuele-em/proxelar) | A MITM Proxy Toolkit with SSL/TLS Capabilities. | Rust | 1. [Request duplication](https://github.com/emanuele-em/proxelar/issues/7) <br> 2. [Optional GUI](https://github.com/emanuele-em/proxelar/issues/69) <br> 3. [Remove 🔍 and allow click directly on table row to show details](https://github.com/emanuele-em/proxelar/issues/24) |
+| [kevinanielsen/go-fast-cdn](https://github.com/kevinanielsen/go-fast-cdn) | A fast and easy-to-use CDN, built with Go. | Go | 1. [Documentation: Write documentation for adding another language with i18n to the docs](https://github.com/kevinanielsen/go-fast-cdn/issues/78) <br> 2. [Feature: Add button for resizing images](https://github.com/kevinanielsen/go-fast-cdn/issues/90) |
+| [apifytech/apify-js](https://github.com/apify/crawlee) | A web scraping and browser automation library for Node.js. | TypeScript | [Idea: we could add function to extract schema.org microdata from a page](https://github.com/apify/crawlee/issues/276) |
