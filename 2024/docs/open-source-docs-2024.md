@@ -1,4 +1,4 @@
-# 📚 Open Source Documentation List for WriteTech DocReview 2024
+# 📚 Open source documentation list for WriteTech DocReview 2024
 
 | **Repository**                               | **Description**                        | **Language**                       | **Issues**                      |
 |----------------------------------------------|----------------------------------------|------------------------------------|---------------------------------|

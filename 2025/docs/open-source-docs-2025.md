@@ -1,4 +1,4 @@
-# 📚 Open Source Documentation List for WriteTech DocReview 2025
+# 📚 Open source documentation list for WriteTech DocReview 2025
 
 | **Repository**                               | **Description**                        | **Language**                       | **Issues**                      |
 |----------------------------------------------|----------------------------------------|------------------------------------|---------------------------------|
