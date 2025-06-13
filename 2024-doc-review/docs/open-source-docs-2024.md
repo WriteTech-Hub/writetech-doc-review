@@ -1,4 +1,4 @@
-# 📚 List of Documentation For the 2024 WriteTech DocReview Series
+# 📚 Open Source Documentation List – WriteTech DocReview Series 2025
 
 | **Repository**                               | **Description**                        | **Language**                       | **Issues**                      |
 |----------------------------------------------|----------------------------------------|------------------------------------|---------------------------------|
