@@ -40,7 +40,7 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 **📄 Documentation Selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
 
-**✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](review_template/review-template.md).
+**✍️ Documentation Review Submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
 
 **🔍 Review Process**: Each submission undergoes:
    - **External Review**: Peer-reviewed by selected community members.
@@ -61,10 +61,10 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 | **Recognition & Contribution Highlights**| **16th October onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
 
 
-## 🗂 **Folder Structure**
+## 🗂 Folder Structure
 
 - **`(year)_cycle/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
-- **`review_template/`**: Contains the [review template](review_template/review-template.md) for submissions.
+- **`review_template/`**: Contains the [review template](templates/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
 
@@ -73,11 +73,11 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
-2. Use the [review template](templates/review-template.md) located in the `review_template/` folder to craft your review.
+2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
 3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
-## 📜 **License**
+## 📜 License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
