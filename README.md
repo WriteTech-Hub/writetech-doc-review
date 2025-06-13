@@ -73,7 +73,7 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
-2. Use the [review template](review_template/review-template.md) located in the `review_template/` folder to craft your review.
+2. Use the [review template](templates/review-template.md) located in the `review_template/` folder to craft your review.
 3. Submit your review by creating a **Pull Request (PR)** in the `reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
