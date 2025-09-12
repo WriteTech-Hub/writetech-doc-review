@@ -13,6 +13,7 @@ We love your contributions! Here’s how you can get involved.
    Make a branch for your review submission. For example:  
    ```bash
    git checkout -b add-my-review
+   ```
 
 4. **Write your review**  
    Use the template located at `templates/review-template.md` to write your review. Save your review in the correct cycle folder:
@@ -26,6 +27,7 @@ We love your contributions! Here’s how you can get involved.
    Make sure your file name is descriptive, for example:  
    ```text
    my-tool-review.md
+   ```
 
 5. **Update the nav in `mkdocs.yml`**  
    To make your review appear in the site sidebar, you must add your file to the correct `Reviews` section in the `nav` of `mkdocs.yml`.
@@ -47,6 +49,30 @@ We love your contributions! Here’s how you can get involved.
 - The updated `mkdocs.yml` with your file added in the nav
 
 7. **Review process**: Your PR will undergo an external review followed by an internal review.
+
+## Running the site locally
+
+You can also preview the documentation on your local machine before submitting a PR. Follow these steps:
+
+1. **Install Python**  
+   Download and install Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. **Install MkDocs**  
+   Open a terminal or command prompt and run:  
+   ```bash
+   pip install mkdocs mkdocs-material
+   ```
+
+3. **Start the local server from the repo root**
+    ```bash
+    mkdocs serve
+    ```
+
+4. **Open your browser and go to the site below to view the documentation locally**
+    ```cpp
+    http://127.0.0.1:8000
+    ```
+
 
 ## Code of conduct
 All contributors are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
