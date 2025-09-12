@@ -1,0 +1,25 @@
+site_name: Documentation Review Series
+theme:
+  name: material
+
+plugins:
+  - search
+  - awesome-pages
+
+nav:
+  - Home: index.md
+  - Review Selection Criteria:
+      - Criteria for Selecting a Documentation: doc-selection-process.md
+      - Criteria for Selecting an External Reviewer: external-reviewer-selection-template.md
+  - 2024 Reviews:
+      - Open Source Projects: 2024/docs/open-source-docs-2024.md
+      - Reviews: 
+          - Review 1: 2024/reviews/crawlee-quickstart-review.md
+          - Review 2: 2024/reviews/crawlee-review.md
+          - Review 3: 2024/reviews/go-fast-cdn-review.md
+          - Review 4: 2024/reviews/proxelar-review.md
+          - Review 5: 2024/reviews/time-cop-review.md
+  - 2025 Reviews:
+      - Open Source Projects: 2025/docs/open-source-docs-2025.md
+      - Reviews: 
+          - 2025/reviews/
