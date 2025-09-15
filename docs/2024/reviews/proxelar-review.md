@@ -1,4 +1,4 @@
-# Technical Documentation Review Template
+# Proxelar Technical Documentation Review
 
 ## Documentation Title:
 [Proxelar](https://github.com/emanuele-em/proxelar)
