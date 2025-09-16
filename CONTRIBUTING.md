@@ -26,23 +26,28 @@ We love your contributions! Here’s how you can get involved.
 
    Make sure your file name is descriptive, for example:  
    ```text
-   my-tool-review.md
+   x-tool-review.md
    ```
 
 5. **Update the nav in `mkdocs.yml`**  
-   To make your review appear in the site sidebar, you must add your file to the correct `Reviews` section in the `nav` of `mkdocs.yml`.
+   To make your review appear in the doc site, you must add your file to the correct `Reviews` section in the `nav` of `mkdocs.yml`.
 
-   Your entry should follow this format and should be updated in this part of the `mkdocs.yml` file:
+   Each entry should use the tool’s name as the label and the relative path to your review file as the value. Update the `mkdocs.yml` file so it follows this format: 
 
    ```yaml
    - 2025 Reviews:
        - Open Source Projects: 2025/docs/open-source-docs-2025.md
        - Reviews:
-           - Review 1: 2025/reviews/my-tool-review.md   # <- your new review
+           - tool-name: 2025/reviews/x-tool-review.md   # <- your new review
     ```
     
-    > ⚠️ Make sure to number your review correctly.
-    For every new review added, continue the numbering from the previous review in the list (e.g., Review 2, Review 3, etc.) so the sidebar stays in order.
+    Add your review as the next item in the list.
+    
+    For example, if you reviewed a tool called **“DocWizard”** and saved it as `docs/2025/reviews/docwizard-review.md`, your entry would look like this:
+
+   ```yaml
+   - DocWizard: 2025/reviews/docwizard-review.md
+   ```
 
 6. **Submit a pull request (PR)**: Make sure your PR includes:
 - Your new review file in the correct folder under `reviews\`
@@ -65,7 +70,7 @@ You can also preview the documentation on your local machine before submitting a
 
 3. **Start the local server from the repo root**
     ```bash
-    mkdocs serve
+    python -m mkdocs serve
     ```
 
 4. **Open your browser and go to the site below to view the documentation locally**
