@@ -2,10 +2,6 @@ site_name: Documentation Review Series
 theme:
   name: material
 
-plugins:
-  - search
-  - awesome-pages
-
 nav:
   - Home: index.md
   - Review Selection Criteria:
