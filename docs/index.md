@@ -43,8 +43,8 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 **Documentation review submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
 
 **Review process**: Each submission undergoes:
-   - **External review**: Peer-reviewed by selected community members.
-   - **Internal review**: Reviewed by in-house technical writers on a final review call.
+a. **External review**: Peer-reviewed by selected community members.
+b. **Internal review**: Reviewed by in-house technical writers on a final review call.
 
 **Spotlighting**: Approved reviews are published publicly for community access.
 

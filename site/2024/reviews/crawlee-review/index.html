@@ -1,0 +1,1302 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../crawlee-quickstart-review/">
+      
+      
+        <link rel="next" href="../go-fast-cdn-review/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>Crawlee - DocReview Series</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#crawlee-technical-documentation-review" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DocReview Series" class="md-header__button md-logo" aria-label="DocReview Series" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DocReview Series
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Crawlee
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DocReview Series" class="md-nav__button md-logo" aria-label="DocReview Series" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.webp" alt="logo">
+
+    </a>
+    DocReview Series
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Review Selection Criteria
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Review Selection Criteria
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../doc-selection-process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Criteria for Selecting a Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../external-reviewer-selection-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Criteria for Selecting an External Reviewer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2024 Reviews
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            2024 Reviews
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/open-source-docs-2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open Source Projects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reviews
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Reviews
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crawlee-quickstart-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crawlee
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Crawlee
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crawlee
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Title
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewer-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewer Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-clarity-and-comprehensiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Clarity and Comprehensiveness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-accuracy-and-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Accuracy and Relevance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-structure-and-organization" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Structure and Organization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-visual-and-design-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Visual and Design Elements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-suggestions-for-improvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Suggestions for Improvement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Suggestions for Improvement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actionable-suggestions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actionable Suggestions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sections-that-need-expansion-rephrasing-or-additional-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections that Need Expansion, Rephrasing, or Additional Content
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-notable-strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Notable Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-identified-errorsinconsistencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Identified Errors/Inconsistencies:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-best-practices-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Best Practices Compliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-overall-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Overall Assessment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-additional-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Additional Comments
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../go-fast-cdn-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Go-fast CDN
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proxelar-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proxelar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time-cop-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time Cop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2025 Reviews
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            2025 Reviews
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2025/docs/open-source-docs-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open Source Projects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reviews
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Reviews
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2025/reviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    None
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Title
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewer-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewer Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-clarity-and-comprehensiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Clarity and Comprehensiveness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-accuracy-and-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Accuracy and Relevance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-structure-and-organization" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Structure and Organization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-visual-and-design-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Visual and Design Elements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-suggestions-for-improvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Suggestions for Improvement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Suggestions for Improvement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actionable-suggestions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actionable Suggestions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sections-that-need-expansion-rephrasing-or-additional-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections that Need Expansion, Rephrasing, or Additional Content
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-notable-strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Notable Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-identified-errorsinconsistencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Identified Errors/Inconsistencies:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-best-practices-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Best Practices Compliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-overall-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Overall Assessment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-additional-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Additional Comments
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="crawlee-technical-documentation-review">Crawlee Technical Documentation Review</h1>
+<h2 id="documentation-title">Documentation Title</h2>
+<p><a href="https://crawlee.dev/">Crawlee</a></p>
+<h2 id="reviewer-information">Reviewer Information</h2>
+<ul>
+<li><strong>Name</strong>: Ayu</li>
+<li><strong>Date of Review</strong>: 25 September 2024</li>
+<li><strong>Review Level</strong>: Beginner</li>
+</ul>
+<h2 id="1-summary">1. Summary</h2>
+<!-- Provide a concise summary of the documentation. What is it about? What purpose does it serve? -->
+
+<p>Crawlee is a web scraping and browser automation library that helps users build reliable crawlers. It makes HTTP requests that mimic browser headers and fingerprints and can switch crawlers from HTTP to headless browsers. These features allow crawlers to appear human-like and be undetected by modern bot protections.</p>
+<h2 id="2-clarity-and-comprehensiveness">2. Clarity and Comprehensiveness</h2>
+<ul>
+<li><strong>Clarity</strong>:</li>
+</ul>
+<!--
+  - Is the information easy to understand?
+  - Are the sentences and paragraphs clear and straightforward?
+  - Is the language appropriate for the intended audience?
+  -->
+
+<p>The information is easy to understand, and the language is appropriate for the intended audience.</p>
+<p>However, not all sentences and paragraphs are clear and straightforward. Some folks might like to read the documentation line by line, which can cause them to read something a couple of times to understand better.</p>
+<p>Below is an example:</p>
+<p>In the "<a href="https://crawlee.dev/docs/introduction/setting-up#creating-a-new-project">Creating a new project</a>" section:</p>
+<blockquote>
+<p>A prompt will be shown, asking you to select a template. Crawlee is written in TypeScript so if you're familiar with it, choosing a TypeScript template will give you better code completion and static type checking, but feel free to use JavaScript as well. Functionally they're identical.</p>
+</blockquote>
+<p>Adding some punctuation and splitting the long sentence into shorter ones would be helpful for clarity and better understanding. Although Crawlee is written in TypeScript, considering it also offers to use JavaScript, the sentence above can be improved with something like:</p>
+<blockquote>
+<p>A prompt will be shown, asking you to select a template. Choosing a TypeScript template will give you better code completion and static type checking if you're familiar with it. Otherwise, you can select JavaScript. Functionally, they're identical.</p>
+</blockquote>
+<p>As the documentation is aiming audiences with the knowledge of JavaScript—and potentially know what TypeScript is—another suggestion is not to mention them at all and go straight to the point as below:</p>
+<blockquote>
+<p>A prompt will be shown, asking you to choose between a TypeScript or JavaScript template.</p>
+</blockquote>
+<ul>
+<li><strong>Comprehensiveness</strong>:</li>
+</ul>
+<!--
+ - Does the documentation cover all necessary topics?
+ - Are there any missing sections that are critical for understanding?
+ - Does it provide sufficient examples, diagrams, or references?
+-->
+
+<p>The documentation covers all necessary topics and provides sufficient examples and references. It even provides a <a href="https://crawlee.dev/docs/examples">dedicated chapter for examples</a>. It's also very thoughtful to provide technical explanation pages within the "<a href="https://crawlee.dev/docs/guides">Guides</a>" chapter and link them within the docs.</p>
+<h2 id="3-accuracy-and-relevance">3. Accuracy and Relevance</h2>
+<ul>
+<li><strong>Accuracy</strong>:</li>
+</ul>
+<!--
+ - Are the technical details correct?
+ - Is there any outdated or incorrect information?
+-->
+
+<p>I found at least one outdated information as below:</p>
+<p>The "<a href="https://crawlee.dev/docs/guides/javascript-rendering">JavaScript rendering</a>" chapter explains the JavaScript rendering through a demonstration.</p>
+<p>As per documentation, I should get <code>ACTOR:</code> and nothing else on the console when I ran the first code. Instead, I got the below info on the console with no <code>ACTOR:</code> printed anywhere:</p>
+<pre><code class="language-bash">INFO  CheerioCrawler: All requests from the queue have been processed, the crawler will shut down.
+INFO  CheerioCrawler: Final request statistics: {&quot;requestsFinished&quot; :1, &quot;requestsFailed&quot; :0, &quot;retryHistogram&quot;:[1], &quot;requestAvgFailedDurationMillis&quot;:null, &quot;requestAvgFinishedDurationMillis&quot;:4688, &quot;requestsFinishedPerMinute&quot;:9, &quot;requestsFailedPerMinute&quot; :0, &quot;requestTotalDurationMillis&quot;:4688, &quot;requestsTotal&quot; :1, &quot;crawlerRuntimeMillis&quot;:6821}
+INFO  CheerioCrawler: Finished! Total 1 requests: 1 succeeded, 0 failed. {&quot;terminal&quot;:true}
+</code></pre>
+<p>It further says:</p>
+<blockquote>
+<p>You can confirm this using Chrome DevTools. If you go to https://apify.com/store, right-click anywhere in the page, select View Page Source and search for ActorStoreItem you won't find any results.</p>
+</blockquote>
+<p>Searching for <code>ActorStoreItem</code> in the View Page Source found 183 results for all CSS classes. If these classes do not correspond to the documentation, they must be updated to match what <code>ActorStoreItem</code> users want to look for.</p>
+<ul>
+<li><strong>Relevance</strong>:</li>
+</ul>
+<!--
+ - Is the content relevant to the current state of the product/technology?
+ - Does it align with the latest best practices and standards (e.g., Google's technical documentation style guide, Microsoft Manual of Style)?
+-->
+
+<p>The content is relevant to the product's current state. In general, the documentation aligns with the latest Microsoft Writing Style Guide. For example, the documentation is written like we speak. However, it can still be improved by following the best practices of <a href="https://learn.microsoft.com/en-gb/style-guide/top-10-tips-style-voice">Top 10 tips for Microsoft style and voice</a>.</p>
+<p>One example is to improve the consistency of contractions, such as it's, you'll, you're, we're, and let's.</p>
+<p>Taking from the "<a href="https://crawlee.dev/docs/introduction/real-world-project#pagination">Pagination</a>" section in the "Real-world project" chapter:</p>
+<blockquote>
+<p>When switching between pages, <em>you will</em> see that the URL changes to:</p>
+</blockquote>
+<p>And right in the following line:</p>
+<blockquote>
+<p>Try clicking on the link to page 4. <em>You'll see</em> that the pagination links update and show more pages.</p>
+</blockquote>
+<h2 id="4-structure-and-organization">4. Structure and Organization</h2>
+<ul>
+<li><strong>Logical Flow</strong>:</li>
+</ul>
+<!--
+ - Is the documentation logically structured?
+ - Are sections and subsections well-organized?
+-->
+
+<p>The documentation is logically structured and well-organized. It's pleasant to follow.</p>
+<p>However, one subsection in a page might be part of a heading. In the "<a href="https://crawlee.dev/docs/guides/javascript-rendering">JavaScript rendering</a>" chapter, "<a href="https://crawlee.dev/docs/guides/javascript-rendering#waiting-for-elements-to-render">Waiting for elements to render</a>" might be a subsection of "<a href="https://crawlee.dev/docs/guides/javascript-rendering#headless-browsers">Headless browsers</a>". But they have the same heading level.</p>
+<ul>
+<li><strong>Navigation</strong>:</li>
+</ul>
+<!--
+ - Is it easy to navigate through the document?
+ - Are there clear headings, subheadings, and an index/table of contents?
+-->
+
+<p>The documentation is easy to navigate because the headings, subheadings, and table of contents are clear, and links are generously provided.</p>
+<h2 id="5-visual-and-design-elements">5. Visual and Design Elements</h2>
+<ul>
+<li><strong>Visuals</strong>:</li>
+</ul>
+<!--
+  - Are diagrams, screenshots, and tables used effectively?
+  - Are visuals clear, properly labelled, and relevant?
+  -->
+
+<p>Screenshots are used effectively. They're also clear, properly labeled, and relevant.</p>
+<ul>
+<li><strong>Design</strong>:</li>
+</ul>
+<!--
+  - Is the document aesthetically pleasing?
+  - Is there consistent use of fonts, colors, and formatting?
+  -->
+
+<p>The documentation's aesthetics can be improved. Admonitions (notes, info, tips, warning cards) are very helpful for clarity and caution. However, some pages, e.g., <a href="https://crawlee.dev/docs/introduction/scraping">Scraping the Store</a>, have back-to-back admonitions, which can distract the audience.</p>
+<p>Fonts and colors are consistent throughout the docs. Yet, some formatting can be improved for consistency. Let's take an example from <a href="https://crawlee.dev/docs/introduction/real-world-project">Getting some real-world data</a> page. There are two ways a link is formatted in the documentation:</p>
+<ul>
+<li><strong>As an inline code</strong></li>
+</ul>
+<blockquote>
+<p>...when we already know that everything we want to extract can be found at the <code>https://warehouse-theme-metal.myshopify.com/collections</code> page.</p>
+</blockquote>
+<ul>
+<li><strong>As an external link</strong></li>
+</ul>
+<blockquote>
+<p>Let's open DevTools by going to https://warehouse-theme-metal.myshopify.com/collections in Chrome...</p>
+</blockquote>
+<h2 id="6-suggestions-for-improvement">6. Suggestions for Improvement</h2>
+<!--
+- Provide specific, actionable suggestions to improve the documentation.
+- Mention any sections that need expansion, rephrasing, or additional content.
+-->
+
+<h3 id="actionable-suggestions">Actionable Suggestions</h3>
+<p>Based on the findings and examples in previous sections, below are some suggestions that can be applied:</p>
+<ul>
+<li>Some long sentences can be broken into shorter sentences for better reading and understanding.</li>
+<li>Using punctuation properly can help the audience understand the exact meaning of a sentence.
+  There might be another way to avoid using heavy back-to-back admonitions so that the audience isn't distracted.</li>
+<li>The consistency of using "you" and "we" can be improved. For example, in the "<a href="https://crawlee.dev/docs/introduction/scraping">Scraping the Store</a>" page, some sections use "you", and some go with "we"."</li>
+</ul>
+<h3 id="sections-that-need-expansion-rephrasing-or-additional-content">Sections that Need Expansion, Rephrasing, or Additional Content</h3>
+<p>There are below sentences in the "<a href="https://crawlee.dev/docs/guides/javascript-rendering#headless-browsers">Headless browsers</a>" section:</p>
+<blockquote>
+<p>You can choose from two libraries to control your browser: Puppeteer or Playwright. The choice is simple. If you know one of them, choose the one you know. If you know both, or none, <em>choose Playwright, because it's better in most cases</em>.</p>
+<p><em>Playwright is a little more pleasant to use</em>, but both libraries will get the job done.</p>
+</blockquote>
+<p>Looking at the wording I emphasize here, the documentation recommends that the audience use Playwright. But it'd be great to explain why Playwright is better than Puppeteer so that the audience can confidently choose one. Also, these sentences give a subjective opinion.</p>
+<p>It'll be even better to have a table that shows the differences, such as their strengths and weaknesses.</p>
+<h2 id="7-notable-strengths">7. Notable Strengths</h2>
+<!--
+- Highlight what the documentation does well.
+- Mention sections that are particularly well-written or effective.
+-->
+
+<p>The documentation is quite informative for those who are new to web scraping. It provides detailed explanations about using Crawlee for web scraping and enough code examples and screenshots.</p>
+<p>The "<a href="https://crawlee.dev/docs/introduction">Introduction</a>" chapter, in particular, does a great job of walking the audience to understand Crawlee and scraping data step-by-step.</p>
+<h2 id="8-identified-errorsinconsistencies">8. Identified Errors/Inconsistencies:</h2>
+<!--
+- List any errors, inconsistencies, or ambiguities.
+- Provide examples where necessary.
+-->
+
+<p>Please see explanations and examples in below sections:</p>
+<ul>
+<li><a href="#2-clarity-and-comprehensiveness">2. Clarity and Comprehensiveness</a></li>
+<li><a href="#3-accuracy-and-relevance">3. Accuracy and Relevance</a></li>
+<li><a href="#sections-that-need-expansion-rephrasing-or-additional-content">Sections that Need Expansion, Rephrasing, or Additional Content</a></li>
+</ul>
+<h2 id="9-best-practices-compliance">9. Best Practices Compliance</h2>
+<ul>
+<li><strong>Standards</strong>:
+    <!--
+    - Does the documentation adhere to recognized standards (e.g., Google's Documentation Guide)?
+    - How does it compare with industry best practices?
+    --></li>
+</ul>
+<p>Creating standards throughout the documentation can be improved. Please see the "Relevance" in the <a href="#3-accuracy-and-relevance">3. Accuracy and Relevance</a> as an example.</p>
+<h2 id="10-overall-assessment">10. Overall Assessment</h2>
+<!--
+- Provide an overall assessment of the documentation, including a summary of your key findings.
+- Rate the document on a scale from 1 to 5 based on overall quality and usability.
+-->
+
+<p>As a background, I have no knowledge of web scraping. Reading the documentation and following the instructions helped me understand web scraping and what Crawlee does. I also gained more knowledge about web scraping, crawling (which I heard a lot about but am not sure what it is), and so on.</p>
+<p>I rate the document 3 on a scale of 1 to 5. Why 3? I'm one of those readers who read line-by-line when I want to understand something more. Sometimes, I had to read a paragraph a couple of times to understand the information because some sentences were not straightforward and too wordy. Additionally, the back-to-back admonitions distracted me because I felt like I had to read them all thoroughly.</p>
+<h2 id="11-additional-comments">11. Additional Comments</h2>
+<!-- - Any additional observations or comments. -->
+
+<p>It would be great to add information about the legal side of web scraping at the beginning of the documentation. This would clarify what kind of data users may keep, use, and share and what they may not. Knowing the limitations would benefit users and Crawlee as a tool to scrap data from the web.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,6 +1,11 @@
-site_name: Documentation Review Series
+site_name: DocReview Series
 theme:
+  palette:
+    primary: white
   name: material
+  logo: assets/images/logo.webp
+  favicon: assets/images/favicon.png
+
 
 nav:
   - Home: index.md
