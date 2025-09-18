@@ -3,19 +3,19 @@
 We love your contributions! Here’s how you can get involved.
 
 ## How to contribute
-1. **Fork the repository**  
+### 1. Fork the repository
    Start by forking the repository to your own GitHub account.
 
-2. **Clone the repository**  
+### 2. Clone the repository  
    Clone your fork to your local machine.
 
-3. **Create a branch**  
+### 3. Create a branch  
    Make a branch for your review submission. For example:  
    ```bash
    git checkout -b add-my-review
    ```
 
-4. **Write your review**  
+### 4. Write your review  
    Use the template located at `templates/review-template.md` to write your review. Save your review in the correct cycle folder:
 
    - **For 2024 reviews:**  
@@ -29,7 +29,7 @@ We love your contributions! Here’s how you can get involved.
    x-tool-review.md
    ```
 
-5. **Update the nav in `mkdocs.yml`**  
+### 5. Update the nav in `mkdocs.yml`
    To make your review appear in the doc site, you must add your file to the correct `Reviews` section in the `nav` of `mkdocs.yml`.
 
    Each entry should use the tool’s name as the label and the relative path to your review file as the value. Update the `mkdocs.yml` file so it follows this format: 
@@ -49,31 +49,33 @@ We love your contributions! Here’s how you can get involved.
    - DocWizard: 2025/reviews/docwizard-review.md
    ```
 
-6. **Submit a pull request (PR)**: Make sure your PR includes:
+### 6. Submit a pull request (PR)
+   Make sure your PR includes:
 - Your new review file in the correct folder under `reviews\`
 - The updated `mkdocs.yml` with your file added in the nav
 
-7. **Review process**: Your PR will undergo an external review followed by an internal review.
+### 7. Review process
+   Your PR will undergo an external review followed by an internal review.
 
 ## Running the site locally
 
 You can also preview the documentation on your local machine before submitting a PR. Follow these steps:
 
-1. **Install Python**  
+### 1. Install Python  
    Download and install Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-2. **Install MkDocs**  
+### 2. Install MkDocs  
    Open a terminal or command prompt and run:  
    ```bash
    pip install mkdocs mkdocs-material
    ```
 
-3. **Start the local server from the repo root**
+### 3. Start the local server from the repo root
     ```bash
     python -m mkdocs serve
     ```
 
-4. **Open your browser and go to the site below to view the documentation locally**
+### 4. Open your browser and go to the site below to view the documentation locally
     ```cpp
     http://127.0.0.1:8000
     ```

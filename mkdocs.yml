@@ -4,7 +4,7 @@ theme:
     primary: white
   name: material
   logo: assets/images/logo.webp
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon1.png
 
 
 nav:

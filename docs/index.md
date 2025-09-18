@@ -6,6 +6,7 @@ The WriteTech DocReview Series is a community-driven initiative organized by [Wr
 ## Objective
 
 This series is designed to:
+
 - Enable community members to build a portfolio by reviewing technical documentation.
 - Provide vetted feedback from in-house technical writers.
 - Share approved reviews publicly, recognizing community contributions.
@@ -40,10 +41,12 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 **Documentation selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
 
-**Documentation review submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
+**Documentation review submission**: Members write and submit their reviews using the provided [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md).
 
 **Review process**: Each submission undergoes:
+
 a. **External review**: Peer-reviewed by selected community members.
+
 b. **Internal review**: Reviewed by in-house technical writers on a final review call.
 
 **Spotlighting**: Approved reviews are published publicly for community access.
@@ -53,8 +56,8 @@ b. **Internal review**: Reviewed by in-house technical writers on a final review
 
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Documentation selection**             | **16th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation selection process](docs/doc-selection-process.md)    |
-| **Review submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](templates/review-template.md). |
+| **Documentation selection**             | **16th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation selection process.](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/doc-selection-process.md)    |
+| **Review submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md). |
 | **Initial review by experienced writers**| **26th September – 3rd October** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
 | **Review call by WriteTech Hub technical writers**| **7th October – 11th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
 | **Spotlighting reviews**           | **16th October – 17th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
@@ -63,8 +66,8 @@ b. **Internal review**: Reviewed by in-house technical writers on a final review
 
 ## Folder structure
 
-- **`(year)_cycle/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
-- **`review_template/`**: Contains the [review template](templates/review-template.md) for submissions.
+- **`docs/year/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
+- **`templates/review_template/`**: Contains the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
 
@@ -73,13 +76,13 @@ b. **Internal review**: Reviewed by in-house technical writers on a final review
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
-2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a Pull Request (PR) in the `reviews/` folder for your participation cycle.
+2. Use the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) located in the `templates/` folder to craft your review.
+3. Submit your review by creating a Pull Request (PR) in the `year/reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/LICENSE) file for details.
 
 
 ## Join the community!
