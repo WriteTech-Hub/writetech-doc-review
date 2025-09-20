@@ -1,7 +1,7 @@
-# Technical Documentation Review Template
+# Go-fast CDN Technical Documentation Review
 
 ## Documentation Title:
-[ Go-fast CDN] - https://github.com/kevinanielsen/go-fast-cdn
+[Go-fast CDN](https://github.com/kevinanielsen/go-fast-cdn)
 
 ## Reviewer Information:
 - **Name**: [Olawore Hikmah]

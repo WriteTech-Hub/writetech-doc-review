@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block hero %}
+<section class="tx-hero">
+  <div class="tx-hero__content">
+    <div class="tx-hero__text">
+      <h1>Excellence in Technical Documentation</h1>
+      <p>
+        Join the WriteTech DocReview Series – a community-driven initiative 
+        empowering technical writers to refine their skills, build portfolios, 
+        and enhance documentation quality across industries.
+      </p>
+      <div class="tx-hero__buttons">
+        <a href="{{ 'doc-selection-process/' | url }}" class="md-button md-button--primary tx-hero__button">
+          Get started
+        </a>
+        <a href="https://writetechhub.org/our-community/" class="md-button tx-hero__button">
+          Join community
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="md-content__inner md-typeset">
+  {{ page.content }}
+</div>
+{% endblock %}

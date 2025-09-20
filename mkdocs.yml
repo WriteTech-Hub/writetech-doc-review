@@ -1,0 +1,134 @@
+site_name: WriteTech DocReview Series
+site_description: Community-driven initiative for technical documentation excellence
+site_url: https://writetech-doc-review.super-dust-84a2.workers.dev/
+
+# Theme configuration
+theme:
+  name: material
+  custom_dir: overrides
+  font:
+    text: Raleway
+    code: JetBrains Mono
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    
+  logo: assets/images/logo.webp
+  favicon: assets/images/favicon1.png
+  icon:
+    repo: fontawesome/brands/github
+
+# Repository information
+repo_url: https://github.com/WriteTech-Hub/writetech-doc-review
+repo_name: WriteTech-Hub/writetech-doc-review
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+
+# Additional CSS/JS
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascipt/extra.js
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Review Selection Criteria:
+      - Criteria for Selecting a Documentation: doc-selection-process.md
+      - Criteria for Selecting an External Reviewer: external-reviewer-selection-template.md
+  - 2024 Reviews:
+      - Open Source Projects: 2024/docs/open-source-docs-2024.md
+      - Reviews: 
+          - Crawlee: 2024/reviews/crawlee-quickstart-review.md
+          - Crawlee: 2024/reviews/crawlee-review.md
+          - Go-fast CDN: 2024/reviews/go-fast-cdn-review.md
+          - Proxelar: 2024/reviews/proxelar-review.md
+          - Time Cop: 2024/reviews/time-cop-review.md
+  - 2025 Reviews:
+      - Open Source Projects: 2025/docs/open-source-docs-2025.md
+      - Reviews: 
+          - 2025/reviews/
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WriteTech-Hub
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/WriteTechHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/writetechhub/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/writetechhub/

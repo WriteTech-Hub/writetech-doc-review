@@ -1,4 +1,4 @@
-# Technical Documentation Review Template
+# Time Cop Technical Documentation Review
 
 ## Documentation Title:
 [Time Cop Documentation](https://github.com/hamaluik/timecop)
