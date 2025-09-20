@@ -1,3 +1,6 @@
+---
+template: home.html
+---
 # WriteTech DocReview Series
 
 The WriteTech DocReview Series is a community-driven initiative organized by [WriteTech Hub](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
@@ -52,7 +55,7 @@ b. **Internal review**: Reviewed by in-house technical writers on a final review
 **Spotlighting**: Approved reviews are published publicly for community access.
 
 
-### Timeline
+## Timeline
 
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -67,17 +70,17 @@ b. **Internal review**: Reviewed by in-house technical writers on a final review
 ## Folder structure
 
 - **`docs/year/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
-- **`templates/review_template/`**: Contains the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) for submissions.
+- **`templates/`**: Contains the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
 
-## **Contributing**
+## Contributing
 
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
 2. Use the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a Pull Request (PR) in the `year/reviews/` folder for your participation cycle.
+3. Submit your review by creating a Pull Request (PR) in the `docs/year/reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
 ## License

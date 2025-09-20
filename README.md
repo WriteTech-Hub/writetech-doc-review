@@ -63,18 +63,18 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🗂 Folder structure
 
-- **`(year)_cycle/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
-- **`review_template/`**: Contains the [review template](templates/review-template.md) for submissions.
+- **`docs/year/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
+- **`templates/`**: Contains the [review template](templates/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
 
-## 🤝 **Contributing**
+## 🤝 Contributing
 
 We encourage you to contribute by following these steps:
 
 1. **Fork** this repository.
 2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a Pull Request (PR) in the `reviews/` folder for your participation cycle.
+3. Submit your review by creating a Pull Request (PR) in the `docs/year/reviews/` folder for your participation cycle.
 4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
 
 ## 📜 License
