@@ -10,9 +10,7 @@ We are selecting mid to senior-level technical writers from our community to for
 - **Commitment**: Must commit to reviewing at least 3 documentation reviews per quarter.
 
 ## Application process
-1. Fill out the application form [link to form].
-2. Provide a link to your portfolio.
-3. Explain why you are interested in joining the external review team.
+To become an external reviewer, fill out the [application form](https://forms.gle/tpFkviFJrbwuEVxt5) and we'll get back to you!
 
 ## Selection process
 - Applications will be reviewed by the in-house technical writers.

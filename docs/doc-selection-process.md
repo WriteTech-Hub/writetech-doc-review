@@ -4,7 +4,7 @@
 This document outlines the process for selecting technical documentation for the WriteTech Hub Review Initiative.
 
 ## Selection frequency
-- Documentation selection occurs quarterly.
+- Documentation selection occurs per cycle.
 - Community members will be notified two weeks in advance.
 
 ## Selection process

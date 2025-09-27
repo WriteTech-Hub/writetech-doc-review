@@ -2,6 +2,8 @@
 
 The WriteTech DocReview Series is a community-driven initiative organized by [WriteTech Hub](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
 
+Visit the official website [here.](https://writetech-doc-review.super-dust-84a2.workers.dev/)
+
 
 ## 🎯 Objective
 
@@ -38,15 +40,15 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🌟 How it works
 
-**📄 Documentation selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
+**1. Documentation selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
 
-**✍️ Documentation review submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
+**2. Documentation review submission**: Members write and submit their reviews using the provided [review template](templates/review-template.md).
 
-**🔍 Review process**: Each submission undergoes:
+**3. Review process**: Each submission undergoes:
    - **External review**: Peer-reviewed by selected community members.
    - **Internal review**: Reviewed by in-house technical writers on a final review call.
 
-**📢 Spotlighting**: Approved reviews are published publicly for community access.
+**4. Spotlighting**: Approved reviews are published publicly for community access.
 
 
 ### 📅 Timeline
@@ -70,12 +72,7 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## 🤝 Contributing
 
-We encourage you to contribute by following these steps:
-
-1. **Fork** this repository.
-2. Use the [review template](templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a Pull Request (PR) in the `docs/year/reviews/` folder for your participation cycle.
-4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
+We encourage you to contribute by following the steps [here.](CONTRIBUTING.md)
 
 ## 📜 License
 

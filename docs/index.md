@@ -3,8 +3,7 @@ template: home.html
 ---
 # WriteTech DocReview Series
 
-The WriteTech DocReview Series is a community-driven initiative organized by [WriteTech Hub](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
-
+The WriteTech DocReview Series is a community-driven initiative organized by [**WriteTech Hub**](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
 
 ## Objective
 
@@ -31,7 +30,7 @@ This series is designed to:
 To participate in the WriteTech DocReview Series, you must meet the following criteria:
 
 1. **WriteTech Hub community membership**  
-   If you're not already a part of the WriteTech Hub community, you can [join here](https://writetechhub.org/our-community/) and gain access to valuable resources, networking opportunities, and the chance to participate in community-driven initiatives like the DocReview Series.
+   If you're not already a part of the WriteTech Hub community, you can [**join here**](https://writetechhub.org/our-community/) and gain access to valuable resources, networking opportunities, and the chance to participate in community-driven initiatives like the DocReview Series.
 
 2. **Technical writing experience**  
    You must have experience in technical writing to ensure quality and consistency in reviews. This program is aimed at helping technical writers refine their skills while contributing to real-world documentation projects.
@@ -42,50 +41,46 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 
 ## How it works
 
-**Documentation selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for that cycle.
+**1. Documentation selection**: Community members select the technical documentation they'd like to review from the curated list of documentation available for [**that cycle**](https://writetech-doc-review.super-dust-84a2.workers.dev/2025/docs/open-source-docs-2025/). They can also choose to review any open source documentation not in the list.
 
-**Documentation review submission**: Members write and submit their reviews using the provided [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md).
+**2. Documentation review submission**: Members write and submit their reviews using the provided [**review template**](https://writetech-doc-review.super-dust-84a2.workers.dev/review-template/).
 
-**Review process**: Each submission undergoes:
+**3. Review process**: Each submission undergoes:
 
-a. **External review**: Peer-reviewed by selected community members.
+   - **External review**: Peer-reviewed by selected community members.
 
-b. **Internal review**: Reviewed by in-house technical writers on a final review call.
+   - **Internal review**: Reviewed by in-house technical writers on a final review call.
 
-**Spotlighting**: Approved reviews are published publicly for community access.
+**4. Spotlighting**: Approved reviews are published publicly for community access.
 
 
 ## Timeline
 
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Documentation selection**             | **16th September – 23rd September** | Community members select documentation to review. A list of available documentation will be provided. For more information on the doc selection process, see [Documentation selection process.](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/doc-selection-process.md)    |
-| **Review submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md). |
+| **Documentation selection**             | **16th September – 23rd September** | Community members select a documentation to review from the list of available documentation provided. They can also choose to review any other open source documentation not available in the list of projects. For more information on the doc selection process, see [**Documentation selection process**.](https://writetech-doc-review.super-dust-84a2.workers.dev/doc-selection-process/)    |
+| **Review submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [**template**](https://writetech-doc-review.super-dust-84a2.workers.dev/review-template/). |
 | **Initial review by experienced writers**| **26th September – 3rd October** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
 | **Review call by WriteTech Hub technical writers**| **7th October – 11th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
 | **Spotlighting reviews**           | **16th October – 17th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
 | **Recognition & contribution highlights**| **16th October onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
 
 
-## Folder structure
+## Repo folder structure
 
 - **`docs/year/`**: Holds individual review submissions from the community for that review cycle. It also contains the list of documentation for that cycle.
-- **`templates/`**: Contains the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) for submissions.
+- **`templates/`**: Contains the [**review template**](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) for submissions.
 - **`docs/`**: Includes the documentation selection process and additional guidelines.
 
+The repo is linked on the top right corner of the page.
 
 ## Contributing
 
-We encourage you to contribute by following these steps:
-
-1. **Fork** this repository.
-2. Use the [review template](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/templates/review-template.md) located in the `templates/` folder to craft your review.
-3. Submit your review by creating a Pull Request (PR) in the `docs/year/reviews/` folder for your participation cycle.
-4. External reviewers will assess your PR, followed by an internal review by WriteTech’s technical writers.
+We encourage you to contribute by following the steps [**here**.](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/CONTRIBUTING.md)
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License – see the [**LICENSE**](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/LICENSE) file for details.
 
 
 ## Join the community!
@@ -95,7 +90,7 @@ By participating in WriteTech DocReview Series, you're not only improving your t
 
 ### Contact us
 
-Have questions or suggestions? Feel free to [open an issue](https://github.com/WriteTech-Hub/writetech-doc-review/issues) or reach out via email at [info@writetechhub.org](mailto:info@writetechhub.org).
+Have questions or suggestions? Feel free to [**open an issue**](https://github.com/WriteTech-Hub/writetech-doc-review/issues) or reach out via email at [**info@writetechhub.org**](mailto:info@writetechhub.org).
 
 ---
 
