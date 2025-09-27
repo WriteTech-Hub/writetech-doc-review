@@ -5,7 +5,6 @@ template: home.html
 
 The WriteTech DocReview Series is a community-driven initiative organized by [**WriteTech Hub**](https://writetechhub.org/), aimed at improving the quality of technical documentation. This initiative empowers members to refine their technical writing skills, build a portfolio, and make a meaningful contribution to enhancing documentation across industries.
 
-
 ## Objective
 
 This series is designed to:
