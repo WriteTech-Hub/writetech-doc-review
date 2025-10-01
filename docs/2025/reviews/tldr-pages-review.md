@@ -1,4 +1,4 @@
-# Technical documentation review template
+# Technical documentation review 
 
 ## Documentation title:
 [tldr-pages](https://github.com/tldr-pages/tldr/tree/main) repository.
