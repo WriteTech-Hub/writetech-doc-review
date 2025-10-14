@@ -59,11 +59,11 @@ To participate in the WriteTech DocReview Series, you must meet the following cr
 | **Stage**                               | **Dates**                        | **Details**                                                                                               |
 |-----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Documentation selection**             | **16th September – 23rd September** | Community members select a documentation to review from the list of available documentation provided. They can also choose to review any other open source documentation not available in the list of projects. For more information on the doc selection process, see [**Documentation selection process**.](https://writetech-doc-review.super-dust-84a2.workers.dev/doc-selection-process/)    |
-| **Review submission**                   | **16th September – 27th September** | Participants submit their reviews using the provided [**template**](https://writetech-doc-review.super-dust-84a2.workers.dev/review-template/). |
-| **Initial review by experienced writers**| **26th September – 3rd October** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
-| **Review call by WriteTech Hub technical writers**| **7th October – 11th October**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
-| **Spotlighting reviews**           | **16th October – 17th October**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
-| **Recognition & contribution highlights**| **16th October onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
+| **Review submission**                   | **16th September – 16th November** | Participants submit their reviews using the provided [**template**](https://writetech-doc-review.super-dust-84a2.workers.dev/review-template/). |
+| **Initial review by experienced writers**| **23rd September – 23rd November** | Initial reviews are conducted by experienced community writers for preliminary feedback.                   |
+| **Review call by WriteTech Hub technical writers**| **23rd September – 23rd November**      | In-house technical writers vet the submitted reviews for accuracy and provide necessary feedback.          |
+| **Spotlighting reviews**           | **8th December – 12th December**     | Approved reviews are formatted and shared publicly on the platform, blog, and social media.                |
+| **Recognition & contribution highlights**| **8th December onwards**           | Contributions are recognized, and top contributors are highlighted within the community.                  |
 
 
 ## Repo folder structure
