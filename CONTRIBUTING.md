@@ -88,22 +88,12 @@ http://127.0.0.1:8000
    ```yaml
    - DocWizard: 2025/reviews/docwizard-review.md
    ```
-
-### 10. Build the Site Locally
-
-From the repository root, run the following command to build the documentation site:
-
-```
-python -m mkdocs build
-```
-The files will be generated in the `site/` directory.
-
-### 11. Submit a pull request (PR)
+### 10. Submit a pull request (PR)
 Make sure your PR includes:
 - Your new review file in the correct folder under `reviews\`
 - The updated `mkdocs.yml` with your file added in the nav
 
-### 12. Review process
+### 11. Review process
    Your PR will undergo an external review followed by an internal review.
 
 
