@@ -32,7 +32,15 @@ Start by cloning this repository directly to your local machine:
    git checkout -b add-my-review
    ```
 
-### 5. Write your review  
+### 5. Pick a Documentation to Review
+
+After cloning the repository, check the current review cycle in the `docs/year/docs` folder to choose an open-source documentation you’d like to review.
+
+You can find the documentation list for the current cycle in the `docs/2025/docs` folder or click [here.](https://github.com/WriteTech-Hub/writetech-doc-review/blob/main/docs/2025/docs/open-source-docs-2025.md)
+
+Select one documentation from the list that interests you. Once you’ve made your choice, proceed to write your review using the review template.
+
+### 6. Write your review  
    Use the template located at `templates/review-template.md` to write your review. Save your review in the correct cycle folder:
 
    - **For 2024 reviews:**  
@@ -46,7 +54,7 @@ Start by cloning this repository directly to your local machine:
    x-tool-review.md
    ```
 
-### 6. Update the nav in `mkdocs.yml`
+### 7. Update the nav in `mkdocs.yml`
    To make your review appear in the doc site, you must add your file to the correct `Reviews` section in the `nav` of `mkdocs.yml`.
 
    Each entry should use the tool’s name as the label and the relative path to your review file as the value. Update the `mkdocs.yml` file so it follows this format: 
@@ -65,12 +73,12 @@ Start by cloning this repository directly to your local machine:
    ```yaml
    - DocWizard: 2025/reviews/docwizard-review.md
    ```
-### 7. Submit a pull request (PR)
+### 8. Submit a pull request (PR)
 Make sure your PR includes:
 - Your new review file in the correct folder under `reviews\`
 - The updated `mkdocs.yml` with your file added in the nav
 
-### 8. Review process
+### 9. Review process
    Your PR will undergo an external review followed by an internal review.
 
 ## Building the site locally
